@@ -23,8 +23,6 @@ public class App {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        System.out.println(String.valueOf(true)); // Outputs "true"
     }
 
 }
