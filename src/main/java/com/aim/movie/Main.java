@@ -10,7 +10,7 @@ import com.aim.movie.util.IOUtils;
 import com.aim.movie.util.MovieDBUtils;
 import com.aim.movie.util.MySQL;
 
-public class Exercise5 {
+public class Main {
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(MySQL.URL.value, MySQL.USER.value, MySQL.PASS.value)) {
 
